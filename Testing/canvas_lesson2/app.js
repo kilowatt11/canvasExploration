@@ -12,4 +12,6 @@ function draw(x,y){
         y -= 1;  //decrement, the y position by numerical value
         var loopTimer = setTimeout('draw('+x+', '+y+')',10);
     
+    
+    //can create multiple boxes on canvas, but unsure of how to fix flicker currently. can change these to circles for bubbles
 }
