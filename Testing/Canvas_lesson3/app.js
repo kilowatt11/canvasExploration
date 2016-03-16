@@ -4,7 +4,8 @@ function draw(){
     var canvas = document.getElementById("canvas1");
     //create the HTML 5 context object to enable draw methods
     var ctx = canvas.getContext("2d");
-    
+    //These two variables can also be written in one line 
+    //example = var ctx = document.getElementById('canvas1').getContext('2d');
     //draw the Filled Shape 1 (center triangle of logo)
     
     ctx.beginPath();
